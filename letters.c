@@ -15,6 +15,9 @@
 #define ADDOT	228
 #define ODOT	246
 
+int search(const char *);
+char to_letters(cont char *);
+
 /*
  * The morse code alphabet
  */
@@ -60,13 +63,14 @@ char to_letters(const char *code)
 }
 
 /*
- * reads all input strings, converts them to letters and prints them to stdout
+ * main reads input morse code, converts it letters and prints to stdout
  */
 int main()
 {
 	char s[6];
-		
-	while(scanf("%s", s) != -1){
+	
+	while(scanf("%s", s) != -1)
+	{
 		putchar(to_letters(s));
 		if (getchar() == '\t')
 			putchar(' ');

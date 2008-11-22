@@ -49,7 +49,7 @@ int index_of(unsigned char c)
 /*
  * to_morse takes a character and returns the morse code equivalent
  */
-const char * to_morse(char c)
+const char *to_morse(char c)
 {
 	int i;
 	if ((i = index_of(c)) == -1)
