@@ -16,7 +16,7 @@
 #define ODOT	246
 
 int search(const char *);
-char to_letters(cont char *);
+char to_letters(const char *);
 
 /*
  * The morse code alphabet
