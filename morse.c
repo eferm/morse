@@ -3,6 +3,10 @@
  * Chalmers University of Technology
  * Lab 3
  * Task 1: Translate to morse code
+ * 
+ * Author:	Emanuel Ferm
+ *			emanuelf @ student.chalmers.se
+ * Date:	24 November 2008
  */
 
 #include <stdio.h>

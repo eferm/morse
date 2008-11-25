@@ -3,6 +3,10 @@
  * Chalmers University of Technology
  * Lab 3
  * Task 2: Translate from morse code to letters
+ * 
+ * Author:	Emanuel Ferm
+ *			emanuelf @ student.chalmers.se
+ * Date:	24 November 2008
  */
 
 #include <stdio.h>
